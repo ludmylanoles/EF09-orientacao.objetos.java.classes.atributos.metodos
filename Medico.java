@@ -5,7 +5,7 @@ public class Medico {
 	private String nome;
 	private String sexo;
 	private String especialidade;
-	private Endereco endereco;
+	private Endereco Endereco1;
 	
 	public Medico() {
 		
@@ -16,12 +16,13 @@ public class Medico {
 		this.nome = nome;
 		this.sexo = sexo;
 		this.especialidade = especialidade;
-		this.endereco = new Endereco();}
+		this.Endereco1 = new Endereco();}
 	
 	public static void main(String[] args) {
 		Medico Medico1;
 		Medico1 = new Medico();
-		Endereco endereco = new Endereco();
+		Endereco Endereco1;
+		Endereco1 = new Endereco();
 		
 		String retornarRua;
 		int retornarNumero;
@@ -31,13 +32,13 @@ public class Medico {
 		String retornarUf;
 		String retornarCep;
 		
-		retornarRua = endereco.getRua();
-		retornarNumero = endereco.getNumero();
-		retornarComplmento = endereco.getComplemento();		
-		retornarBairro = endereco.getBairro();
-		retornarCidade = endereco.getCidade();
-		retornarUf = endereco.getUf();
-		retornarCep = endereco.getCep();
+		retornarRua = Endereco1.getRua();
+		retornarNumero = Endereco1.getNumero();
+		retornarComplmento = Endereco1.getComplemento();		
+		retornarBairro = Endereco1.getBairro();
+		retornarCidade = Endereco1.getCidade();
+		retornarUf = Endereco1.getUf();
+		retornarCep = Endereco1.getCep();
 		
 		Medico1.codigo = 2222;
 		Medico1.nome = "Fulano";
