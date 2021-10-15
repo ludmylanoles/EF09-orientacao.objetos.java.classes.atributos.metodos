@@ -1,4 +1,4 @@
-package quest„o2;
+package quest√£o2;
 
 public class Medico {
 	private int codigo;
@@ -23,7 +23,6 @@ public class Medico {
 		Medico1 = new Medico();
 		Endereco endereco = new Endereco();
 		
-		
 		String retornarRua;
 		int retornarNumero;
 		String retornarComplmento;
@@ -45,11 +44,11 @@ public class Medico {
 		Medico1.sexo = "Masculino";
 		Medico1.especialidade = "Cirugia Geral";
 		
-		System.out.println("CÛdigo: " + Medico1.codigo);
+		System.out.println("C√≥digo: " + Medico1.codigo);
 		System.out.println("Nome: " + Medico1.nome);
 		System.out.println("Sexo: " + Medico1.sexo);
 		System.out.println("Especialidade: " + Medico1.especialidade);
-		System.out.println(" - EndereÁo - " );
+		System.out.println(" - Endere√ßo - " );
 		System.out.println("Rua: " + retornarRua);
 		System.out.println("Numero: " + retornarNumero);
 		System.out.println("Complemento: " + retornarComplmento);
